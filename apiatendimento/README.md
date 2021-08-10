@@ -30,7 +30,10 @@ python3 manage.py runserver
 
 fazer atendimento adicionando os procedimentos do cliente
 http://localhost:8000/pedido/
+<img width="1280" alt="Screen Shot 2021-08-10 at 06 42 09" src="https://user-images.githubusercontent.com/30245610/128846014-080db14e-2f0b-4eb8-aa67-e40c5c076e54.png">
 
 visualizacao do atendimento com o total a ser pago, comissao e items(procedimentos) solicitados
 
 http://localhost:8000/atendimento/
+
+<img width="1280" alt="Screen Shot 2021-08-10 at 06 42 42" src="https://user-images.githubusercontent.com/30245610/128846037-2c15944f-e4ae-4bb1-848c-12e235924949.png">

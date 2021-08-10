@@ -3,6 +3,8 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^atendimentos/$', views.AtendimentoList.as_view(), name='atendimento-list'),
+    url(r'^atendimento/$', views.PedidoList.as_view(), name='pedido-list'),
+    url(r'^pedido/$', views.ProcedimentosList.as_view(), name='add-pedido'),
+
 
 ]

@@ -1,9 +1,14 @@
 from rest_framework import serializers
-from .models import Atendimento
-from django.db.models import Sum
+from .models import Procedimento, Pedido
+
+
+class PedidoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Pedido
+        fields = ('id', 'resumo_pedido')
 
 
 class AtendimentoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Atendimento
+        model = Procedimento
         fields = '__all__'

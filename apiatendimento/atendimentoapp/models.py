@@ -13,7 +13,6 @@ class Procedimento(models.Model):
 
 
 class Pedido(models.Model):
-    nome_atendente = models.CharField(max_length=30, default='atendente')
     resumo_pedido = models.ManyToManyField(
         Procedimento)
 
@@ -22,4 +21,4 @@ class Pedido(models.Model):
         db_table = 'pedido'
 
     def __str__(self):
-        return self.nome_atendente
+        return self.resumo_pedido

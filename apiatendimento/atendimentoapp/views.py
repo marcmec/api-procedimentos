@@ -18,7 +18,7 @@ class PedidoList(generics.ListCreateAPIView):
         comissao = 0
         for chave, valor in total_pedido.items():
             total_pedido[chave] = float(valor)
-            comissao = round(total_pedido[chave]*0.1, 3)
+            comissao = round(total_pedido[chave]*0.01, 3)
         return Response({'total': total_pedido if total_pedido else 0, 'comissao': comissao, 'pedido': serializer.data})
 
 

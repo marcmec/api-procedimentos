@@ -3,5 +3,6 @@
 *.pot
 *.pyc
 apiatendimento/apiatendimento/__pycache__
+apiatendimento/atendimentoapp/__pycache__
 apiatendimento/atendimentoapp/db.sqlite3
 media

@@ -2,6 +2,6 @@
 *.log
 *.pot
 *.pyc
-/__pycache__
-/db.sqlite3
+/apiatendimento/apiatendimento/__pycache__
+/apiatendimento/atendimentoapp/db.sqlite3
 /media

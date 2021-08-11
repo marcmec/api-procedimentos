@@ -1,0 +1,8 @@
+# Django #
+*.log
+*.pot
+*.pyc
+apiatendimento/apiatendimento/__pycache__
+apiatendimento/atendimentoapp/__pycache__
+apiatendimento/db.sqlite3
+media
